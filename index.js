@@ -39,7 +39,17 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'What kind of license should your project have?',
-    choices: ['MIT', 'APACHE2.0', 'GPL3.0', 'BSD3', 'None'],
+    choices: ['MIT', 'APACHE2.0', 'GPL3.0', 'BSD3', 'None']
+  },
+  {
+    type: 'input',
+    name: 'username',
+    message: 'what is your GitHub username?'
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'what is your email?'
   },
 
 ];
